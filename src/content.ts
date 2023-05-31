@@ -227,6 +227,7 @@ function pasteCode(code: string) {
     "code",
     "totp",
     "twoFactorCode",
+    "twofa_code",
   ];
   for (const inputBox of inputBoxes) {
     for (const identity of identities) {
